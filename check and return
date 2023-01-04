@@ -1,0 +1,6 @@
+def Check_Pair_Sum(x,n,target_Sum):
+     for i in range(n):
+         for j in range(i+1,n):
+             if x[i]+x[j]==target_Sum:
+                 return True
+      return False           
